@@ -45,13 +45,23 @@
   }
   .pd-left-100{
     padding-left: 0px;
+    display: flex;
+    justify-content: center;
   }
 .solution{
   margin-top: 0px;
 }
 
+.pd-left-100 img{
+  max-width: 84%;
+}
+
+
+
 .btn-grp{
   width: 100%;
 }
+
+
 
 }
