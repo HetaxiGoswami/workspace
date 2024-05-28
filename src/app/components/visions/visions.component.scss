@@ -56,7 +56,7 @@
 
 .top-right {
   top: 125px;
-  right: 66px;
+  right: 98px;
   width: 100px;
   height: 100px;
   background-position: 100% 100%;
@@ -201,6 +201,10 @@
     top: 305px;
   }
 
+  .top-right img{
+    max-width: 170px;
+  }
+
   .col-6 {
     width: 100% !important;
   }
@@ -216,10 +220,13 @@
   }
 }
 
-
-
 @media (max-width:1024px){
   .top-right{
-    right: 92px;
+    right: 99px;
   }
+
+  .bottom-left{
+    left: 61%;
+  }
+
 }

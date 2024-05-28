@@ -317,3 +317,22 @@ h1 {
   }
 }
 
+
+@media (min-width:762px)  and (max-width:992px) {
+  .opacity{
+    width: 100%;
+  }
+
+  .pd-left{
+    padding-left: 0px;
+  }
+
+  h1{
+    font-size: 44px;
+  }
+
+  .padding-top{
+    padding-top: 60px;
+  }
+
+}
