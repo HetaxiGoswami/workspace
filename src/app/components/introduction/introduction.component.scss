@@ -1,0 +1,319 @@
+.introduction {
+  margin: 0 auto;
+  max-width: 1440px;
+  padding-top: 100px;
+}
+
+.intro-cols {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.intro-cols .col {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.intro-cols .col img {
+  max-width: 100%;
+  height: auto;
+}
+
+.pt-70px{
+  padding-top: 80px;
+}
+
+.padding-top {
+  padding-top: 250px;
+}
+
+.pd-left {
+  padding-left: 110px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: "Axiforma", sans-serif;
+  font-weight: 700;
+  font-size: 49px;
+}
+
+.position img {
+  width: 100%;
+  max-width: 573px;
+  position: relative;
+  left: 15px;
+  top: 20px;
+}
+
+.bg-img {
+  background-image: url("/assets/images/Rectangle 10.png");
+  max-width: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.circle {
+  position: relative;
+  right: 143px;
+}
+
+.ellispse-one {
+  max-width: 100%;
+  width: 304px;
+  position: absolute;
+  left: -54px;
+}
+
+.ellipse-two {
+  position: absolute;
+  bottom: 30%;
+  left: 178px;
+}
+
+.ellipse-three {
+  position: absolute;
+  left: 74px;
+  bottom: 58px;
+}
+
+.ellipse-four {
+  position: absolute;
+  bottom: -26px;
+  width: auto;
+  left: 169px;
+}
+
+.ellipse-four img {
+  min-height: 100%;
+  height: 217px;
+}
+
+.opacity {
+  width: 677.29px;
+  height: 102px;
+  z-index: 1;
+  background: rgba(232, 231, 231, 0.6);
+  border-radius: 5.22px;
+  position: relative;
+}
+
+.map-img {
+  width: 15.76px;
+  height: 20px;
+}
+
+.color {
+  color: rgba(152, 152, 152, 1);
+}
+
+.elli-32 {
+  position: relative;
+  right: 12px;
+}
+
+.elli-33 {
+  position: relative;
+  right: 25px;
+}
+
+.elli-34 {
+  position: relative;
+  right: 39px;
+}
+
+.elli-35 {
+  position: relative;
+  right: 50px;
+}
+
+.elli-36 {
+  position: relative;
+  right: 63px;
+}
+.img-imges {
+  font-size: 9px;
+}
+
+.images img {
+  width: 36px;
+  height: 36px;
+}
+
+.img-imges p {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .pd-left {
+    padding-left: 20px;
+  }
+
+  .position img {
+    left: 0;
+  }
+
+  .circle {
+    right: 0;
+  }
+
+  .ellipse-two {
+    bottom: 10%;
+  }
+
+  .ellipse-three {
+    bottom: 90px;
+  }
+
+  .ellispse-one img {
+    max-width: 250px;
+  }
+
+  .ellispse-one {
+    left: -140px;
+  }
+
+  .ellipse-two {
+    left: -125px;
+    top: 270px;
+  }
+  .ellipse-three img {
+    max-width: 200px;
+  }
+
+  .ellipse-three {
+    top: 171px;
+    left: -109px;
+  }
+
+  .ellipse-four {
+    left: 0px;
+    bottom: 26px;
+  }
+
+  .opacity {
+    width: 100%;
+    height: 93px;
+  }
+}
+
+@media (min-width: 770px) and (max-width: 989px) {
+  .ellispse-one img {
+    max-width: 259px;
+  }
+
+  .ellipse-two {
+    left: 20px;
+    top: 150px;
+  }
+
+  .ellipse-three {
+    left: 0px;
+    top: 232px;
+  }
+
+  .left-width {
+    left: 82px;
+    width: 457px;
+  }
+  .ellipse-four img {
+    height: 246px;
+    min-height: 100%;
+  }
+  .pd-left {
+    padding-left: 66px;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 530px) {
+  .btn-grp {
+    padding: 3.4px 11.57px 3.4px 11.57px;
+  }
+
+  .pt-14 {
+    padding-top: 14px;
+  }
+
+  h1 {
+    font-size: 27px;
+  }
+
+  .ellispse-one img {
+    max-width: 100px;
+  }
+
+  .ellipse-three {
+    top: 124px;
+    left: -90px;
+  }
+
+  .ellipse-three img {
+    max-width: 100px;
+  }
+
+  .ellipse-four {
+    display: none;
+  }
+
+  .ellipse-two img {
+    max-width: 100px;
+  }
+
+  .bg-img {
+    background-image: none;
+  }
+
+  .ellipse-two {
+    left: -125px;
+    top: 270px;
+  }
+
+  .padding-top{
+    padding-top: 0px;
+  }
+}
+
+@media (min-width: 530px) and (max-width: 610px) {
+  .bg-img {
+    max-width: 100%;
+  }
+  .ellispse-one img {
+    max-width: 140px;
+  }
+
+  .ellipse-two {
+    left: -180px;
+    top: 270px;
+  }
+
+  .ellipse-three {
+    top: 137px;
+    left: -135px;
+  }
+
+  .ellipse-four {
+    display: none;
+  }
+}
+
+@media (min-width: 978px) and (max-width: 1250px) {
+  .ellipse-two {
+    position: absolute;
+    bottom: 30%;
+    left: 0px;
+  }
+
+  .ellispse-one {
+    left: -133px;
+  }
+
+  .ellipse-three {
+    left: -74px;
+  }
+
+  .pd-left {
+    padding-left: 8px;
+  }
+}
+

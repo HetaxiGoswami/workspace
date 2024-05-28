@@ -1,1 +1,94 @@
 /* You can add global styles to this file, and also import other style files */
+
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  src: url("https://example.com/path/to/Gilroy-SemiBold.woff2") format("woff2"),
+    url("https://example.com/path/to/Gilroy-SemiBold.woff") format("woff"),
+    url("https://example.com/path/to/Gilroy-SemiBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+
+
+
+.btn-grp {
+  color: white;
+  background-color: rgba(253, 91, 47, 1);
+  padding: 9.4px 36.57px 9.4px 36.57px;
+  border-color: rgba(253, 91, 47, 1);
+  border-radius: 5.22px;
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 16px;
+}
+
+.btn-grp-diff {
+  color: rgba(253, 91, 47, 1);
+  background-color: white;
+  padding: 9.4px 36.57px 9.4px 36.57px;
+  border-color: rgba(253, 91, 47, 1);
+  border-radius: 5.22px;
+  font-family: "Gilroy-Medium", sans-serif;
+
+  font-size: 16px;
+}
+
+.btn-color {
+  color: rgba(253, 91, 47, 1);
+  background-color: white;
+//   padding: 11.4px 36.57px 9.4px 36.57px;
+  border-radius: 5.22px;
+  font-family: "Gilroy-Medium", sans-serif;
+  border: 1px solid white;
+  font-size: 16px;
+}
+
+.font-ave{
+  font-family: 'Avenir',sans-serif;
+}
+
+
+.font-medium {
+  font-family: "Gilroy-Medium", sans-serif;
+}
+
+.font-cera {
+  font-family: "Cera Pro", sans-serif;
+}
+
+.font-semibold {
+  font-family: "Gilroy-SemiBold", sans-serif;
+}
+
+.main-container {
+  max-width: 1441px;
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+.section-headings {
+  color: rgba(253, 91, 47, 1);
+  font-family: "Gilroy-SemiBold", sans-serif;
+  font-size: 18.81;
+  line-height: 22.04px;
+  font-weight: 600;
+}
+
+.section-content {
+  font-family: "Gilroy-Medium", sans-serif;
+  font-size: 52px;
+  line-height: 71.04px;
+}
+
+.section-paragraph {
+  font-size: 15.67px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+  line-height: 37.61px;
+}
